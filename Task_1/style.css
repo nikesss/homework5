@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 250px;
+}
+.container div {
+  background-color: yellow;
+  width: 10%;
+  height: 100px;
+}
+.container div:last-child {
+  flex-basis: 100%;
+  background-color: green;
+}
+.container div:first-child {
+  background-color: green;
+}
+.container div:nth-child(8) {
+  flex-basis: 15%;
+}

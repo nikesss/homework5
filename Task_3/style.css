@@ -1,0 +1,22 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  width: 600px;
+  height: 600px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  width: 400px;
+  height: 400px;
+  align-self: center;
+}
+.item {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
